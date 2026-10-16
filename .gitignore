@@ -1,0 +1,11 @@
+# generated CAD outputs
+STEP/
+STL/
+3MF/
+GLB/
+preview/
+# python
+__pycache__/
+*.pyc
+# uv / cadgen caches (lives in ~/.cache, but just in case)
+.uv/
