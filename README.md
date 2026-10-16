@@ -58,6 +58,21 @@ your own eyes. Talk → code → part → preview → iterate.
 - **Telemetry off by default.** `setup.sh` disables cadgen's usage stats.
   Your parts stay yours.
 
+## 🎯 Scope: mechanical CAD — and only that
+
+text-to-cad-muse is a **mechanical** CAD workstation: parametric parts,
+engineering drawings, STL for printing, STEP for manufacturing. It deliberately
+stays in its lane:
+
+| Job | Where it belongs |
+|---|---|
+| Mechanical parts & engineering drawings | ✅ this project |
+| 2D symbolic diagrams (electrical schematics, scientific illustrations) | [scientific-illustrator-muse](https://github.com/song-squared/scientific-illustrator-muse) |
+| Organic / artistic 3D (characters, scenes, photoreal renders) | [blender-for-muse](https://github.com/song-squared/blender-for-muse) |
+| Architectural BIM / construction documents | ❌ none of the three — simple massing models only |
+
+Ask it for a wiring diagram and it will point you next door. 🙂
+
 ## 🚀 Quickstart
 
 ```bash

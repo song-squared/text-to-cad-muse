@@ -54,6 +54,20 @@
 - **默认关闭 telemetry。** `setup.sh` 会关掉 cadgen 的使用统计，你的零件
   只属于你。
 
+## 🎯 定位：机械 CAD，不贪多
+
+text-to-cad-muse 是**机械** CAD 工作站：参数化零件、工程图、STL 打印、STEP
+制造。只守这一摊，不贪多：
+
+| 活 | 归谁 |
+|---|---|
+| 机械零件与工程图 | ✅ 本项目 |
+| 2D 符号图（电气原理图、科学示意图） | [scientific-illustrator-muse](https://github.com/song-squared/scientific-illustrator-muse) |
+| 有机/艺术三维（人物、场景、照片级渲染） | [blender-for-muse](https://github.com/song-squared/blender-for-muse) |
+| 建筑 BIM / 施工图 | ❌ 三个都不做——简单的体块示意可以 |
+
+让它画电气图，它会请你出门右转。🙂
+
 ## 🚀 快速开始
 
 ```bash
